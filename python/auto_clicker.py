@@ -1,4 +1,5 @@
-// This script uses pyautogui to repeatedly click on a x & y coordinate on your screen.
+# This script uses pyautogui to repeatedly click on a x & y coordinate on your screen.
+# pip install PyAutoGUI
 
 import pyautogui
 i = 1
