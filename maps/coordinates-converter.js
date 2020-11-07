@@ -1,4 +1,6 @@
-// Requires HTML Page with elements: 'lat, 'long', 'result', 'x_value', 'y_value' & 'result2'
+// This script uses onemap API to convert coordinates between latitude, longitude and SVY21 map grid reference.
+// Refer to documentation at https://developers.onemap.sg
+// Script requires HTML front page with elements: 'lat, 'long', 'result', 'x_value', 'y_value' & 'result2'
 
 function latlong() {
     lat = document.getElementById("lat").value;
