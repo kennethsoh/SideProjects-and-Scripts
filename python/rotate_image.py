@@ -1,5 +1,5 @@
 # This script uses opencv to rotate images by 90 degrees clockwise or counter-clockwise
-# Usage: python3 rotate.py <Original_Image_File_Name> <New_Image_File_Name> <clockwise/counter>
+# Usage: python3 rotate_image.py <Original_Image_File_Name> <New_Image_File_Name> <clockwise/counter>
 
 import cv2
 import sys
