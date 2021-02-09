@@ -2,9 +2,12 @@ A share is the single smallest denomination of a company's stock. For example: A
 You own 3000 shares of DBS's stock and 5000 shares of SIA's stock.
 
   Your current Stock Holding
-   Stock  unit  price
-   DBS    3000  22.360
-   SIA    5000  4.230
+  
+| Stock         | unit | price  |
+| ------------- |------| -------|
+| DBS           | 3000 | 22.360 |
+| SIA           | 5000 | 4.230  |
+
    
 When a share of common stock of some company is sold, the capital gain(or, sometimes loss) is the difference between the share's selling price and the price orginally 
 paid to buy it.
