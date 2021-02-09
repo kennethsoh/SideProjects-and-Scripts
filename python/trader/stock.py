@@ -34,6 +34,10 @@ def profitloss():
 	P = float(P)
 	cost = U*P
 	
+	if S == "GME":
+		print("You can't sell that now. It's market manipulation.\n")
+		sys.exit()
+	
 	total = 0
 	for i in portfolio:
 		if S.lower() == (i[0]).lower():
