@@ -1,3 +1,4 @@
+# Used for NUS CS2107 AY23/24 Assignment 2
 import requests
 
 url = "http://cs2107-ctfd-i.comp.nus.edu.sg:8082/catbreed"
