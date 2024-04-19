@@ -22,8 +22,14 @@ import requests
 import time
 import json
 
-# Create or regen Github Token
-# GITHUB_TOKEN = "" # delete variable or set blank (default) to disable authentication
+# Create or regenerate Github Token
+# Allow the following access:
+#      repo:status , repo_development , public_repo , repo:invite , read:pacakages , read:public_key
+#      gist , read:user , read:discussion , read:enterprise, read:audit_log , read:project , read:gpg_key
+
+# GITHUB_TOKEN = "Bearer <Insert key here> " # delete variable or set blank (default) to disable authentication
+
+
 LIST_IP_FORKS = [
     # - AY2324S1 (CS2103/T)
     "https://github.com/nus-cs2103-AY2324S1/ip/network/members",
