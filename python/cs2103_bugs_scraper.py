@@ -22,7 +22,7 @@ import requests
 import time
 import json
 
-# Create or regenerate Github Token
+# Create or regenerate Github Token at: https://github.com/settings/tokens
 # Allow the following access:
 #      repo:status , repo_development , public_repo , repo:invite , read:pacakages , read:public_key
 #      gist , read:user , read:discussion , read:enterprise, read:audit_log , read:project , read:gpg_key
@@ -31,6 +31,8 @@ import json
 
 
 LIST_IP_FORKS = [
+    # - AY2324S2 (CS2103/T)
+    "https://github.com/nus-cs2103-AY2324S2/ip/network/members",
     # - AY2324S1 (CS2103/T)
     "https://github.com/nus-cs2103-AY2324S1/ip/network/members",
     # - AY2223S2 (CS2103/T)
@@ -42,9 +44,9 @@ LIST_IP_FORKS = [
     # - AY2122S1 (CS2103/T)
     "https://github.com/nus-cs2103-AY2122S1/ip/network/members",
     # - AY2021S2 (CS2103/T)
-    "https://github.com/nus-cs2103-AY2021S2/ip/network/members",
+    # "https://github.com/nus-cs2103-AY2021S2/ip/network/members",  
     # - AY2021S1 (CS2103)
-    "https://github.com/nus-cs2103-AY2021S1/ip/network/members",
+    # "https://github.com/nus-cs2103-AY2021S1/ip/network/members",
 ]
 
 #### Modify below at your own risk ####
